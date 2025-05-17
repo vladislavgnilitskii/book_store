@@ -1,0 +1,23 @@
+QLineEdit {
+    height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+QPushButton {
+    height: 32px;
+    padding: 0px 12px; /* ← отступы внутри кнопки по горизонтали */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+}
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QLabel {
+    font-weight: bold;
+}
